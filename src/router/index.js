@@ -6,7 +6,7 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: '/demo1',
+      path: '/',
       name: 'demo1',
       component: resolve => require(['@/views/demo1.vue'], resolve)
     },
@@ -14,6 +14,11 @@ export default new Router({
       path: '/demo2',
       name: 'demo2',
       component: resolve => require(['@/views/demo2.vue'], resolve)
+    },
+    {
+      path: '/test2',
+      name: 'test2',
+      component: resolve => require(['@/views/test2.vue'], resolve)
     }
   ]
 });
