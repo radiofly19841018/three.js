@@ -19,6 +19,16 @@ export default new Router({
       path: '/test2',
       name: 'test2',
       component: resolve => require(['@/views/test2.vue'], resolve)
+    },
+    {
+      path: '/test3',
+      name: 'test3',
+      component: resolve => require(['@/views/test3.vue'], resolve)
+    },
+    {
+      path: '/demo4',
+      name: 'demo4',
+      component: resolve => require(['@/views/demo4.vue'], resolve)
     }
   ]
 });
